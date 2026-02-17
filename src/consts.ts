@@ -35,13 +35,13 @@ interface Site {
 // Site configuration.
 // Replace placeholder values below with your real profile/domain details.
 export const SITE: Site = {
-  website: "https://your-name.vercel.app/",
-  author: "Your Name",
-  profile: "https://your-name.vercel.app/about",
+  website: "https://personal-website.vercel.app/",
+  author: "Markus Baumann",
+  profile: "https://personal-website.vercel.app/about",
   desc: "Personal website and blog about software, products, and ideas I'm building.",
-  title: "Your Name",
-  shortName: "yourname",
-  repository: "https://github.com/your-username/personal-website",
+  title: "Markus Baumann",
+  shortName: "eybmits",
+  repository: "https://github.com/eybmits/personal-website",
   twitterHandle: "",
   ogImage: "avatar.svg",
   lightAndDarkMode: true,
@@ -53,7 +53,7 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/your-username/personal-website/edit/main/",
+    url: "https://github.com/eybmits/personal-website/edit/main/",
   },
   dynamicOgImage: true,
   lang: "en",
@@ -72,8 +72,7 @@ export const NAV_LINKS: SocialLink[] = [
 
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
-  { href: "https://github.com/your-username", label: "GitHub" },
-  { href: "https://www.linkedin.com/in/your-profile/", label: "LinkedIn" },
+  { href: "https://github.com/eybmits", label: "GitHub" },
   { href: "/rss.xml", label: "RSS" },
 ];
 

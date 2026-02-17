@@ -15,9 +15,8 @@ I'm ${SITE.author}, a software engineer focused on building useful products and 
 
 ## Contact
 
-- GitHub: https://github.com/your-username
-- LinkedIn: https://www.linkedin.com/in/your-profile/
-- Email: hello@example.com
+- GitHub: https://github.com/eybmits
+- Email: hello@eybmits.dev
 
 ---
 

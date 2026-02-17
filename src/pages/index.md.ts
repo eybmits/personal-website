@@ -15,9 +15,8 @@ ${SITE.desc}
 
 ## Links
 
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [your-profile](https://www.linkedin.com/in/your-profile/)
-- Email: hello@example.com
+- GitHub: [eybmits](https://github.com/eybmits)
+- Email: hello@eybmits.dev
 
 ---
 
