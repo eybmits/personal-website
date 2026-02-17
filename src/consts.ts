@@ -35,9 +35,9 @@ interface Site {
 // Site configuration.
 // Replace placeholder values below with your real profile/domain details.
 export const SITE: Site = {
-  website: "https://personal-website.vercel.app/",
+  website: "https://eybmits.github.io/",
   author: "Markus Baumann",
-  profile: "https://personal-website.vercel.app/about",
+  profile: "https://eybmits.github.io/about",
   desc: "Personal website and blog about software, products, and ideas I'm building.",
   title: "Markus Baumann",
   shortName: "eybmits",
