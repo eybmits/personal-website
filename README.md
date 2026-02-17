@@ -54,6 +54,12 @@ Personal site and blog based on a proven Astro architecture, adapted for your ow
 3. Import repo into Vercel.
 4. Keep Vercel subdomain first, add custom domain later.
 
+## Agent Handover
+
+Operational handover for any new agent is documented in:
+
+- `docs/AGENT_RUNBOOK.md`
+
 ## License
 
 - Content: CC BY 4.0

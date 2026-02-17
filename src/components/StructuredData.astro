@@ -13,8 +13,8 @@ const siteUrl = SITE.website.replace(/\/$/, "");
 const profileUrl = `${siteUrl}/about`;
 const imageUrl = new URL(`/${SITE.ogImage}`, SITE.website).href;
 const socialProfiles = SOCIALS.filter(
-  social => social.active && social.href.startsWith("http")
-).map(social => social.href);
+  (social) => social.active && social.href.startsWith("http")
+).map((social) => social.href);
 
 let structuredData: Record<string, any> = {};
 

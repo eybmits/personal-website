@@ -33,7 +33,6 @@ interface Site {
 }
 
 // Site configuration.
-// Replace placeholder values below with your real profile/domain details.
 export const SITE: Site = {
   website: "https://eybmits.github.io/",
   author: "Markus Baumann",
