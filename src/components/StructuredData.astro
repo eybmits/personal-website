@@ -1,0 +1,83 @@
+---
+import { SITE } from "@/config";
+import { SOCIALS } from "@/constants";
+
+export interface Props {
+  type: "BlogPosting" | "Person" | "WebSite";
+  data: Record<string, any>;
+}
+
+const { type, data } = Astro.props;
+
+const siteUrl = SITE.website.replace(/\/$/, "");
+const profileUrl = `${siteUrl}/about`;
+const imageUrl = new URL(`/${SITE.ogImage}`, SITE.website).href;
+const socialProfiles = SOCIALS.filter(
+  social => social.active && social.href.startsWith("http")
+).map(social => social.href);
+
+let structuredData: Record<string, any> = {};
+
+if (type === "BlogPosting") {
+  structuredData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: data.title,
+    description: data.description,
+    author: {
+      "@type": "Person",
+      name: data.author || SITE.author,
+      url: SITE.profile || profileUrl,
+    },
+    datePublished: data.pubDatetime.toISOString(),
+    dateModified: data.modDatetime?.toISOString() || data.pubDatetime.toISOString(),
+    publisher: {
+      "@type": "Person",
+      name: SITE.author,
+      logo: {
+        "@type": "ImageObject",
+        url: imageUrl,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": data.url,
+    },
+    image: data.ogImage || imageUrl,
+    articleSection: data.tags?.[0] || "Technology",
+    keywords: data.tags?.join(", ") || "",
+    wordCount: data.wordCount,
+    timeRequired: data.readingTime,
+  };
+} else if (type === "Person") {
+  structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: SITE.author,
+    url: siteUrl,
+    image: imageUrl,
+    sameAs: socialProfiles,
+    jobTitle: "Software Engineer",
+    description: SITE.desc,
+  };
+} else if (type === "WebSite") {
+  structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE.title,
+    url: siteUrl,
+    description: SITE.desc,
+    author: {
+      "@type": "Person",
+      name: SITE.author,
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${siteUrl}/search?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />

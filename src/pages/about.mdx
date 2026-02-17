@@ -1,0 +1,40 @@
+---
+layout: ../layouts/AboutLayout.astro
+title: "About"
+description: "About Your Name: builder, writer, and engineer sharing practical lessons from real projects."
+---
+
+import NewsletterForm from '../components/NewsletterForm.astro';
+
+<div class="flex flex-col md:flex-row gap-8 items-start">
+  <div class="w-full md:w-auto md:flex-shrink-0 md:max-w-[281px]">
+    <img src="/about-photo.svg" alt="Profile illustration" class="w-full h-auto rounded-lg" />
+  </div>
+  <div class="flex-1 min-w-0">
+    <p>I'm <strong>Your Name</strong>, a software engineer building products at the intersection of code, design, and AI-assisted workflows.</p>
+    <p>I use this site to document what I ship, what breaks, and what I learn while improving systems in production.</p>
+    <p>My background spans web apps, backend systems, developer tooling, and product strategy.</p>
+    <p>If you're working on something interesting, I'd love to connect.</p>
+  </div>
+</div>
+
+## What I Work On
+
+- Product engineering with rapid iteration loops
+- Developer experience and internal tooling
+- Practical AI integrations in real-world workflows
+- Technical writing and architecture notes
+
+## Open Source
+
+Most of my public work lives on GitHub.
+
+[See my repositories](https://github.com/your-username) and follow along as I ship in public.
+
+## Stay Connected
+
+<NewsletterForm />
+
+If you'd like to chat, reach out at [hello@example.com](mailto:hello@example.com).
+
+Tip: You can request the markdown version of key pages with an `Accept: text/markdown` header.

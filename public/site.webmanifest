@@ -1,0 +1,21 @@
+{
+  "name": "Your Name",
+  "short_name": "yourname",
+  "description": "Personal website and blog about software, products, and ideas.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/avatar.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#006cac",
+  "background_color": "#fdfdfd"
+}
