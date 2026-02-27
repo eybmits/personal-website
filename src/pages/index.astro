@@ -50,19 +50,23 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
               <span class="sr-only">RSS Feed</span>
             </a>
           </div>
-          {
-            beliefsPost && (
-              <p class="mb-2">
-                <a
-                  href={`/posts/${beliefsPost.slug}`}
-                  class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
-                >
-                  Things I Believe In
-                </a>
-              </p>
-            )
-          }
-          <p>{SITE.desc}</p>
+          <p>
+            {SITE.desc}
+            {
+              beliefsPost && (
+                <>
+                  {" "}
+                  <a
+                    href={`/posts/${beliefsPost.slug}`}
+                    class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
+                  >
+                    Things I Believe In
+                  </a>
+                  .
+                </>
+              )
+            }
+          </p>
           {
             SOCIALS.filter((social) => social.active).length > 0 && (
               <div class="mt-4 flex flex-row items-center justify-center sm:justify-start">
