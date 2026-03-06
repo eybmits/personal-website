@@ -13,7 +13,6 @@ Build and maintain a personal website with the same functional pattern as the or
 - Post collection in Markdown/MDX
 - Search with Pagefind
 - RSS + Sitemap
-- PWA support
 - Markdown endpoint support via `vercel.json` rewrites
 
 Current owner profile in repo defaults:

@@ -8,7 +8,6 @@ Personal site and blog based on a proven Astro architecture, adapted for your ow
 - MD/MDX content collections
 - Search via Pagefind
 - RSS + Sitemap
-- PWA via `@vite-pwa/astro`
 - Vercel deployment (`vercel.json` includes redirects/rewrites/headers)
 
 ## Project Structure
