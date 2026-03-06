@@ -45,3 +45,5 @@ In any case, these are a few things I've learned from experience and that I try 
 
     - You learn more per unit time because you make contact with reality more frequently.
     - Going fast makes you focus on what's important; there's no time for bullshit.
+
+11. **Don't network, make friends.**
