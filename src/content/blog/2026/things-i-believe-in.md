@@ -16,8 +16,7 @@ A cursed fact of the world is that the most important life lessons you learn are
 
 In any case, these are a few things I've learned from experience and that I try and keep in mind.
 
-1. [The way to become good at solving problems is to solve problems.](/posts/2026/how-to-solve-problems-is-to-solve-problems)  
-   You do not get good at problem solving by admiring finished answers. You get good by wrestling with real problems until better thinking becomes a habit.
+1. [The way to become good at solving problems is to solve problems.](/posts/2026/how-to-solve-problems-is-to-solve-problems)
 
 2. **It is useless to consume information about a topic before you've even started.**  
    Why? Because you lack the "lens" through which you can apply it.
