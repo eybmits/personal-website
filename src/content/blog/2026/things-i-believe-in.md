@@ -47,3 +47,6 @@ In any case, these are a few things I've learned from experience and that I try 
     - Going fast makes you focus on what's important; there's no time for bullshit.
 
 11. **Don't network, make friends.**
+
+12. **Be your own prophet.**  
+    You have to do the thing before you feel authentically confident. That is the real meaning of "fake it till you make it": assume you can do it until proven otherwise. Put yourself in the situation and trust that you will find a way to make it work - because if you truly need to, you will.
