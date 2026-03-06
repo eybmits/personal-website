@@ -8,7 +8,6 @@ tags:
   - personal
   - research
   - engineering
-heroImage: "/images/posts/products.svg"
 ---
 
 Last updated: 2026.03.06
