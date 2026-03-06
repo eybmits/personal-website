@@ -1,7 +1,8 @@
 ---
-title: Things I Believe In
-description: Principles I use to build reliable systems, do rigorous research, and ship meaningful work.
+title: Principles
+description: A few principles I have learned from experience and try to keep in mind.
 pubDatetime: 2026-02-20T12:00:00.000Z
+modDatetime: 2026-03-06T13:30:00.000Z
 featured: true
 tags:
   - personal
@@ -10,11 +11,11 @@ tags:
 heroImage: "/images/posts/products.svg"
 ---
 
-These are the beliefs I return to when decisions get hard.
+Last updated: 2026.03.06
 
-Some of them stay as short operating rules. Others deserve a separate note.
+A cursed fact of the world is that the most important life lessons you learn are the hardest to communicate to others. They always sound like cliches.
 
-## Beliefs
+In any case, these are a few things I've learned from experience and that I try and keep in mind.
 
 1. [I can understand everything.](/posts/2026/i-can-understand-anything)  
    Not instantly, and not without effort. But given enough time, decomposition, and persistence, hard things become tractable.
@@ -33,5 +34,3 @@ Some of them stay as short operating rules. Others deserve a separate note.
 
 6. **Public work creates accountability and better outcomes.**  
    Publishing forces clearer thinking and makes it harder to hide weak assumptions from yourself.
-
-I treat these as operating rules, not slogans.
