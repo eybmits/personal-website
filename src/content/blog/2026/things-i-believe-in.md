@@ -32,3 +32,6 @@ In any case, these are a few things I've learned from experience and that I try 
 
 6. **The strongest negotiator is never the one who needs the deal most - it's the one who can walk away.**  
    Create alternatives until every outcome is acceptable. The person who can leave the table controls the table.
+
+7. **Any individual bet will probably fail. Success is a numbers-and-execution game: make many bets, and execute each one as well as you can.**  
+   The more bets you place and the better you execute them, the higher your probability of success. Fast cycle time matters because it increases how many high-quality bets you can make.
