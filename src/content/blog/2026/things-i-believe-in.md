@@ -24,3 +24,6 @@ In any case, these are a few things I've learned from experience and that I try 
 
 3. **The most valuable feedback usually hurts a lot.**  
    The feedback worth listening to most is often the kind that hits your ego first. If it stings, there is a decent chance it is pointing at something real.
+
+4. **The strongest negotiator is never the one who needs the deal most - it's the one who can walk away.**  
+   Create alternatives until every outcome is acceptable. The person who can leave the table controls the table.
