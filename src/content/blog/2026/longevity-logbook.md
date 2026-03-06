@@ -1,6 +1,6 @@
 ---
 title: Longevity Logbook
-description: A minimal terminal-first training tracker for Zone 2, Zone 5 / HIIT, and strength work.
+description: A minimal terminal-first training tracker for bodyweight, Zone 2, Zone 5 / HIIT, and strength work.
 pubDatetime: 2026-03-06T00:40:00.000Z
 featured: true
 tags:
@@ -13,6 +13,7 @@ source: https://github.com/eybmits/longevity-logbook
 
 I just shipped **Longevity Logbook**, a small terminal-first app for tracking the sessions I actually care about week to week:
 
+- bodyweight
 - Zone 2
 - Zone 5 / HIIT
 - strength training
@@ -21,6 +22,7 @@ The main idea is not to build another bloated fitness app. The point is to make 
 
 The app opens into a rolling 7-day dashboard and shows:
 
+- the latest bodyweight entry and change,
 - current weekly progress,
 - the next strength workout in the cycle,
 - recent sessions,
@@ -28,7 +30,8 @@ The app opens into a rolling 7-day dashboard and shows:
 
 Strength is built around a simple editable plan:
 
-- fixed workout cycle,
+- fixed but editable 6-day workout cycle,
+- manual session selection so I can choose the day I am actually doing,
 - editable exercises, starting weights, and increments,
 - per-exercise progression,
 - rep target from `6` to `12`,
@@ -44,6 +47,15 @@ Two practical details I wanted from the start:
 2. the strength plan itself should be editable from the CLI.
 
 That is now part of the shipped version, together with a global `gym` launcher after running `npm link`.
+
+The current default split is:
+
+1. arms and side delts
+2. lats, shoulders, and glutes
+3. chest and posterior chain
+4. arms and shoulder isolation
+5. vertical pull, shoulders, and legs
+6. chest, shoulders, and lower body
 
 Repository:
 
