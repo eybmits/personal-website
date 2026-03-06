@@ -50,3 +50,48 @@ In any case, these are a few things I've learned from experience and that I try 
 
 12. **Be your own prophet.**  
     You have to do the thing before you feel authentically confident. That is the real meaning of "fake it till you make it": assume you can do it until proven otherwise. Put yourself in the situation and trust that you will find a way to make it work - because if you truly need to, you will.
+
+13. **Stop asking for approval and permission.**  
+    School and work train people into that mindset. Break it. Figure out what you want, plant the "this is happening" flag, and move with conviction. People will come along for the ride.
+
+14. **The 10,000-hour rule is true.**  
+    At the end of the day, you still have to put the hours in. Intelligence, efficiency, and great systems help, but they do not replace the work.
+
+15. **Become the kind of person who, after a conversation, leaves others more energized, more ambitious, and more ready to act.**  
+    Those people are rare. Be one of them, and when you find another, keep them close.
+
+16. **Most people are half-distracted, waiting for their turn to speak.**  
+    Energizing people make you feel like you matter.
+
+17. **Believe in people a little more than they believe in themselves.**
+
+18. **Talk about possibility, not just problems.**
+
+19. **Aim at greatness.**  
+    Set your standard absurdly high. Mediocrity is the default. To do truly great work, you have to aim to stand with the greats.
+
+20. **Be careful about rationalizing something that does not feel right.**
+
+21. **If you really can't disprove something, it has a chance of being right.**
+
+22. **Have opinions.**  
+    Don't drift through ideas passively. Take a position, expose it to the best criticism you can find, and improve it.
+
+23. **Doing things is energizing. Wasting time is depressing.**  
+    You need less "rest" than you think.
+
+24. **Do things fast.**  
+    Most things don't actually take that long; procrastination is what makes them feel long. Slow is often fake. When no urgency exists, create some.
+
+25. **Figure out your primary focus, then make progress on it every day - first thing in the morning, no exceptions.**  
+    Never have zero-output days.
+
+26. **Later, you'll be nostalgic for right now.**
+
+27. **Environment matters a lot.**  
+    Go where you can flourish maximally. Put yourself in environments that demand your best - if you can get by being average, you probably will.
+
+28. **Fun is underrated.**  
+    The best and most creative work usually grows out of joy, curiosity, and excitement. You can feel it in your body.
+
+29. **Everything around me was someone's lifework.**
