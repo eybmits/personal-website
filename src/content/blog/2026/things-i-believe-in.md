@@ -17,7 +17,6 @@ Some of them stay as short operating rules. Others deserve a separate note.
 ## Beliefs
 
 1. [I can understand anything.](/posts/2026/i-can-understand-anything)  
-   Not instantly, and not without effort. But given enough time, decomposition, and persistence, hard things become tractable.
 
 2. **Clarity beats complexity.**  
    If I cannot explain something clearly, I probably do not understand it well enough yet.
