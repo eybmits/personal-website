@@ -22,18 +22,3 @@ In any case, these are a few things I've learned from experience and that I try 
 
 2. [I can understand anything.](/posts/2026/i-can-understand-anything)  
    Not instantly, and not without effort. But given enough time, decomposition, and persistence, hard things become tractable.
-
-3. **Clarity beats complexity.**  
-   If I cannot explain something clearly, I probably do not understand it well enough yet.
-
-4. **Reproducibility is non-negotiable.**  
-   If an idea, experiment, or result cannot be checked and rerun, it is not solid enough.
-
-5. **Fast feedback loops compound over time.**  
-   Short cycles of action, critique, and revision outperform long periods of isolated planning.
-
-6. **Good research must survive contact with implementation.**  
-   Ideas become real when they meet constraints, code, experiments, and edge cases.
-
-7. **Public work creates accountability and better outcomes.**  
-   Publishing forces clearer thinking and makes it harder to hide weak assumptions from yourself.
