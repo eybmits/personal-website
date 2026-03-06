@@ -39,3 +39,9 @@ In any case, these are a few things I've learned from experience and that I try 
 8. **Quantity has a quality all its own.**
 
 9. **The biggest productivity hack in the world: do nothing except the task you set to accomplish.**
+
+10. **Speed has quality all its own.**  
+    It's important to do things fast.
+
+    - You learn more per unit time because you make contact with reality more frequently.
+    - Going fast makes you focus on what's important; there's no time for bullshit.
