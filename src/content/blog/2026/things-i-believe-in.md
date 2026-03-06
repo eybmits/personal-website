@@ -20,7 +20,7 @@ In any case, these are a few things I've learned from experience and that I try 
    A lot of doors stay closed only because people never knock. Rejection gets much less expensive once you stop treating it like a verdict on yourself.
 
 2. [I can understand anything.](/posts/2026/i-can-understand-anything)  
-   Not instantly, and not without effort. But given enough time, decomposition, and persistence, hard things become tractable.
+   Not instantly, and not without effort. But given enough time, decomposition, and persistence, everything becomes tractable.
 
 3. **The most valuable feedback usually hurts a lot.**  
    The feedback worth listening to most is often the kind that hits your ego first. If it stings, there is a decent chance it is pointing at something real.
