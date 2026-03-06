@@ -37,3 +37,5 @@ In any case, these are a few things I've learned from experience and that I try 
    The more bets you place and the better you execute them, the higher your probability of success. Fast cycle time matters because it increases how many high-quality bets you can make.
 
 8. **Quantity has a quality all its own.**
+
+9. **The biggest productivity hack in the world: do nothing except the task you set to accomplish.**
