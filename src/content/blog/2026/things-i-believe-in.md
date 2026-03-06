@@ -17,20 +17,23 @@ A cursed fact of the world is that the most important life lessons you learn are
 
 In any case, these are a few things I've learned from experience and that I try and keep in mind.
 
-1. [I can understand everything.](/posts/2026/i-can-understand-anything)  
+1. **Once you are ok with people telling you "no," you can ask for whatever you want.**  
+   A lot of doors stay closed only because people never knock. Rejection gets much less expensive once you stop treating it like a verdict on yourself.
+
+2. [I can understand anything.](/posts/2026/i-can-understand-anything)  
    Not instantly, and not without effort. But given enough time, decomposition, and persistence, hard things become tractable.
 
-2. **Clarity beats complexity.**  
+3. **Clarity beats complexity.**  
    If I cannot explain something clearly, I probably do not understand it well enough yet.
 
-3. **Reproducibility is non-negotiable.**  
+4. **Reproducibility is non-negotiable.**  
    If an idea, experiment, or result cannot be checked and rerun, it is not solid enough.
 
-4. **Fast feedback loops compound over time.**  
+5. **Fast feedback loops compound over time.**  
    Short cycles of action, critique, and revision outperform long periods of isolated planning.
 
-5. **Good research must survive contact with implementation.**  
+6. **Good research must survive contact with implementation.**  
    Ideas become real when they meet constraints, code, experiments, and edge cases.
 
-6. **Public work creates accountability and better outcomes.**  
+7. **Public work creates accountability and better outcomes.**  
    Publishing forces clearer thinking and makes it harder to hide weak assumptions from yourself.

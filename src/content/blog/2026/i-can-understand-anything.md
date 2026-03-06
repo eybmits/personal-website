@@ -1,5 +1,5 @@
 ---
-title: I Can Understand Everything
+title: I Can Understand Anything
 description: A set of learning rules for deep understanding, precise reasoning, and real mastery.
 pubDatetime: 2026-03-06T13:00:00.000Z
 unlisted: true
