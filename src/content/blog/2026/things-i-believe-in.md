@@ -95,3 +95,5 @@ In any case, these are a few things I've learned from experience and that I try 
     The best and most creative work usually grows out of joy, curiosity, and excitement. You can feel it in your body.
 
 29. **Everything around me was someone's lifework.**
+
+30. **Have the arrogance of belief: if nobody has a solution, believe that you can put all the pieces together.**
