@@ -85,7 +85,12 @@ This is a good place to notice something subtle: the best overall signals are no
 
 ## 3. Which interventions look promising, and which look divisive?
 
-The hero chart above is the single best overview in the entire post.
+<figure>
+  <img src="/images/posts/brainfog-reddit-analysis/03_support_vs_negative_tradeoff.png" alt="Scatter plot showing brain fog interventions by positive-share and negative-share reporting, with a focus zone for cleaner signals." />
+  <figcaption>Left means fewer negative reports. Higher means more positive reports. The focus zone highlights the cleanest signals.</figcaption>
+</figure>
+
+This chart is the single best overview in the entire post.
 
 The x-axis shows the share of mentioning threads that describe an intervention negatively. The y-axis shows the share of mentioning threads that describe it positively. So the most attractive region is the upper left: more positive reports, fewer negative ones.
 
