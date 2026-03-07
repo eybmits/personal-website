@@ -53,7 +53,7 @@ It is not just a cloud of random desperation posts. And it is not dominated main
 
 A second pattern is just as striking: the strongest signals are often less glamorous than people expect. Sleep hygiene, therapy, hydration, walking, magnesium, `B12`, iron, and basic nutrition changes show up over and over again. The center of gravity is much closer to regulation and correction than to miracle hacks.
 
-Then there is a third layer: some lower-visibility ideas appear stronger than their level of attention would suggest. Antihistamines still stand out, but the refreshed item set also pulls up `Methylene Blue`, `Nattokinase`, `Low-Histamine Diet`, `Curcumin`, `Berberine`, `B-Complex`, and `Thiamine / Vitamin B1` as quieter signals worth a closer look.
+Then there is a third layer: some lower-visibility ideas appear stronger than their level of attention would suggest. Antihistamines, `CPAP / BiPAP`, `L-theanine`, hormone-related interventions, and a handful of quieter strategies stand out more than their visibility would predict.
 
 This does not make them proven. It makes them interesting.
 
@@ -89,7 +89,18 @@ The hero chart above is the single best overview in the entire post.
 
 The x-axis shows the share of mentioning threads that describe an intervention negatively. The y-axis shows the share of mentioning threads that describe it positively. So the most attractive region is the upper left: more positive reports, fewer negative ones.
 
-That focus zone now includes several especially clean signals: `Nattokinase`, `Methylene Blue`, `Low-Histamine Diet`, `Yoga / Stretching`, `Guanfacine / Clonidine`, `Intermittent Fasting`, `Sleep Hygiene / Sleep Schedule`, `Meditation / Breathwork`, `Curcumin`, `L-theanine`, `Hydration / Electrolyte Protocol`, `Cardio Training`, `Zinc`, and `Hormone Replacement Protocol`.
+That focus zone is where several clean signals cluster:
+
+1. `Yoga / Stretching`
+2. `Intermittent Fasting`
+3. `Sleep Hygiene / Sleep Schedule`
+4. `Meditation / Breathwork`
+5. `L-theanine`
+6. `Guanfacine / Clonidine`
+7. `Hydration / Electrolyte Protocol`
+8. `Cardio Training`
+9. `Hormone Replacement Protocol`
+10. `Zinc`
 
 The chart also shows why some medications need a more careful reading. `Vyvanse`, `Ritalin / Methylphenidate`, `Adderall`, and `Bupropion / Wellbutrin` can sit fairly high on positive reports while also drifting rightward into a more divisive zone. In plain English: they can help, but they also generate more downside reports and more disagreement.
 
@@ -104,9 +115,9 @@ Some interventions look broadly clean. Others look powerful but unstable.
 
 The supplement chart is more conservative than the internet usually is.
 
-The top layer is still familiar and surprisingly robust: `Magnesium`, `Vitamin B12`, `Iron / Ferritin`, and `Vitamin D`. Those are not trendy answers, but they recur again and again. But the next tier is broader than the first pass suggested. `Omega-3 / Fish Oil` stays visible, while `Lion's Mane`, `Methylene Blue`, `B-Complex`, `Creatine`, `Curcumin`, `Potassium`, `Thiamine / Vitamin B1`, `Multivitamin`, `L-theanine`, and `Nattokinase` now register as meaningful supplement-level signals.
+The top layer is familiar and surprisingly robust: `Magnesium`, `Vitamin B12`, `Iron / Ferritin`, and `Vitamin D`. Those are not trendy answers, but they recur again and again. Lower down, `Omega-3 / Fish Oil`, `Zinc`, `Creatine`, `L-theanine`, `NAC`, and `Choline / Citicoline` form a secondary tier.
 
-One interpretation is that the supplement story is still not mainly about flashy cognitive enhancers. Even many of the newer names map back to subtype stories: post-viral recovery, histamine, methylation or B-vitamin status, gut-directed protocols, inflammation, and energy metabolism.
+One interpretation is that the supplement story is not mainly about flashy cognitive enhancers. It is often about correcting basic physiological problems first: deficiency, stress load, sleep quality, energy balance, and inflammation-adjacent issues.
 
 ## 5. Which medications stand out?
 
@@ -143,7 +154,7 @@ This is one of the strongest signs that brain fog is often lived as a systems pr
 
 This chart is where the analysis starts to get interesting.
 
-The standout names now are `Nattokinase`, `Berberine`, `Methylene Blue`, `Low-Histamine Diet`, `Curcumin`, `Antihistamines`, `L-theanine`, and `Lion's Mane`. These are not the most talked-about ideas overall, but they look stronger than their low visibility would predict.
+The standout names are `L-theanine`, `Antihistamines`, `Carnivore Diet`, and `Guanfacine / Clonidine`. These are not the most talked-about ideas overall, but they look stronger than their low visibility would predict.
 
 That makes them worth paying attention to, not because they are proven winners, but because low-visibility signals are exactly where communities sometimes notice something before it becomes mainstream.
 
@@ -156,7 +167,7 @@ That makes them worth paying attention to, not because they are proven winners, 
 
 The underrated-positive ranking broadens the hidden-gem idea.
 
-`Methylene Blue` and `Nattokinase` now lead the underrated-positive ranking. `Low-Histamine Diet`, `Berberine`, `Curcumin`, `Antihistamines`, `L-theanine`, `Lion's Mane`, `Carnivore Diet`, `Zinc`, `Hormone Replacement Protocol`, and `Low-Dose Naltrexone` also show up as interventions that seem better than their low status would suggest.
+`L-theanine` remains the strongest low-visibility signal. `Antihistamines` stay unusually prominent. `Carnivore Diet`, `Zinc`, `Hormone Replacement Protocol`, `NAC`, `Creatine`, `Elimination Diet`, `Gluten-free`, `Guanfacine / Clonidine`, `Multivitamin`, and `Choline / Citicoline` all show up as interventions that seem better than their low status would suggest.
 
 Even if not every individual signal survives future scrutiny, the pattern is still useful: many of the overlooked signals cluster around inflammation, diet tolerance, autonomic regulation, or deficiency correction rather than generic “brain boosters.”
 
@@ -169,7 +180,7 @@ Even if not every individual signal survives future scrutiny, the pattern is sti
 
 Once the filter becomes more demanding, the list gets narrower and more provocative.
 
-`Nattokinase` now tops the stricter filter. `Hormone Replacement Protocol` remains notable. `Guanfacine / Clonidine`, `Low-Dose Naltrexone`, `Red-Light Therapy`, `Digestive Enzymes`, `Choline / Citicoline`, and `Propranolol` also survive this narrower screen.
+`L-theanine` still holds up. `Hormone Replacement Protocol` remains notable. `Guanfacine / Clonidine`, `Choline / Citicoline`, `Low-Dose Naltrexone`, and even `Dairy-free` appear as small but non-trivial signals.
 
 These are exactly the kinds of findings that can generate useful next questions. Not “this definitely works,” but “why does this show up here, and for which subgroup?”
 
@@ -182,7 +193,7 @@ These are exactly the kinds of findings that can generate useful next questions.
 
 This is one of the most practical charts in the whole set.
 
-If you care about interventions that combine meaningful positive reports with a relatively small negative tail, `Meditation / Breathwork` still looks strong, but `Methylene Blue`, `Nattokinase`, `Cardio Training`, `Curcumin`, `L-theanine`, `Pacing / Energy Envelope`, `B-Complex`, `Elimination Diet`, `Niacin / Vitamin B3`, `Creatine`, and `Hormone Replacement Protocol` also rise.
+If you care about interventions that combine meaningful positive reports with a relatively small negative tail, `Meditation / Breathwork`, `Cardio Training`, `L-theanine`, `Zinc`, `Pacing / Energy Envelope`, `Elimination Diet`, `Hormone Replacement Protocol`, `Creatine`, `Multivitamin`, `NAC`, and `Choline / Citicoline` move up.
 
 This is not a prescription list, but it is a very useful triage list. It tells you where the Reddit conversation sees relatively good upside without as much complaint burden.
 
