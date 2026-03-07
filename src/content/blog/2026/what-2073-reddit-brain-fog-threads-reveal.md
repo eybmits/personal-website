@@ -37,7 +37,7 @@ The goal was not to prove what medically works. Reddit cannot do that. The goal 
 - what gets described positively
 - what seems polarizing
 - what low-visibility ideas look better than expected
-- what patterns point toward deeper root-cause subtypes
+- what patterns point toward recurring subtypes
 
 Methodologically, the rankings below are based on thread-level evidence rather than raw comment volume. Positive mentions add to a score, negative mentions subtract from it, and mixed mentions count as partial support. That keeps one giant thread from distorting the rest of the dataset.
 
@@ -196,28 +196,6 @@ This is one of the most practical charts in the whole set.
 If you care about interventions that combine meaningful positive reports with a relatively small negative tail, `Meditation / Breathwork`, `Cardio Training`, `L-theanine`, `Zinc`, `Pacing / Energy Envelope`, `Elimination Diet`, `Hormone Replacement Protocol`, `Creatine`, `Multivitamin`, `NAC`, and `Choline / Citicoline` move up.
 
 This is not a prescription list, but it is a very useful triage list. It tells you where the Reddit conversation sees relatively good upside without as much complaint burden.
-
-## 11. Which signals look most “root-cause” rather than generic?
-
-<figure>
-  <img src="/images/posts/brainfog-reddit-analysis/11_root_cause_positives.png" alt="Bar chart of root-cause positive signals for brain fog." />
-  <figcaption>These interventions tend to align with identifiable physiological stories rather than purely generic symptom management.</figcaption>
-</figure>
-
-This final view may be the most conceptually important.
-
-`Magnesium`, `CPAP / BiPAP`, `Antihistamines`, `Vitamin B12`, `Hydration / Electrolyte Protocol`, `Iron / Ferritin`, `Hormone Therapy`, `Hormone Replacement Protocol`, `Vitamin D`, `Pacing / Energy Envelope`, `Elimination Diet`, and `Guanfacine / Clonidine` all look more root-cause-shaped than generic.
-
-The big idea is that many brain fog stories seem to improve **not** when people find a magic cognition hack, but when they correctly identify the underlying axis:
-
-- sleep-disordered breathing
-- deficiency states
-- histamine or allergy load
-- hormonal changes
-- hydration and electrolyte instability
-- post-exertional or autonomic dysregulation
-
-That is the strongest high-level pattern in the entire project.
 
 ## So what did this project actually change for me?
 
