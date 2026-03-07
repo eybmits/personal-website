@@ -43,6 +43,8 @@ Methodologically, the rankings below are based on thread-level evidence rather t
 
 > Important caveat: this is community self-report, not clinical evidence. Read it as a map of recurring hypotheses, experiences, and intervention patterns, not as a treatment guide.
 
+If you want to inspect the hero chart directly, open the [full-resolution overview here](/images/posts/brainfog-reddit-analysis/03_support_vs_negative_tradeoff.png).
+
 ## The short version
 
 Once you zoom out, the conversation becomes much more structured than it first appears.
