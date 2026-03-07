@@ -36,6 +36,7 @@ const {
   tags,
   hideEditPost,
   heroImage,
+  heroImageFit = "cover",
 } = post.data;
 
 const { Content } = await render(post);
@@ -89,6 +90,7 @@ const nextPost = currentPostIndex !== allPosts.length ? allPosts[currentPostInde
 
 // Calculate word count for structured data
 const wordCount = (post.body ?? "").split(/\s+/).length;
+const useContainHeroImage = heroImageFit === "contain";
 ---
 
 <Layout {...layoutProps}>
@@ -140,12 +142,24 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
     <article id="article" class="mx-auto prose mt-6 max-w-3xl">
       {
         heroImage && (
-          <img
-            src={heroImage}
-            alt=""
-            class="mb-8 aspect-video w-full rounded-md object-cover"
-            loading="lazy"
-          />
+          <div
+            class:list={[
+              "mb-8 overflow-hidden",
+              useContainHeroImage && "rounded-md border border-border bg-muted/20 p-3",
+            ]}
+          >
+            <img
+              src={heroImage}
+              alt=""
+              class:list={[
+                "w-full",
+                useContainHeroImage
+                  ? "h-auto rounded-sm object-contain"
+                  : "aspect-video rounded-md object-cover",
+              ]}
+              loading="lazy"
+            />
+          </div>
         )
       }
       <Content />

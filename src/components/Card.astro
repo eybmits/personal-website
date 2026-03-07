@@ -13,8 +13,9 @@ export interface Props extends CollectionEntry<"blog"> {
 
 const { variant = "h2", data, id, filePath, body, showImage = true } = Astro.props;
 
-const { title, description, pubDatetime, modDatetime, timezone, heroImage } = data;
+const { title, description, pubDatetime, modDatetime, timezone, heroImage, heroImageFit = "cover" } = data;
 const readingTime = calculateReadingTime(body ?? "");
+const useContainHeroImage = heroImageFit === "contain";
 
 const headerProps = {
   style: { viewTransitionName: slugifyStr(title) },
@@ -46,17 +47,27 @@ const headerProps = {
           href={getPath(id, filePath)}
           class="flex-shrink-0 hidden sm:block group"
         >
-          <Image
-            src={heroImage}
-            alt={title}
-            width={140}
-            height={79}
-            class="rounded shadow-sm transition-all duration-200 group-hover:shadow-md group-hover:scale-105 object-cover"
-            format="webp"
-            quality={80}
-            loading="lazy"
-            densities={[1, 2]}
-          />
+          <div
+            class:list={[
+              "h-[79px] w-[140px] overflow-hidden rounded shadow-sm transition-all duration-200 group-hover:shadow-md group-hover:scale-105",
+              useContainHeroImage && "flex items-center justify-center border border-border bg-muted/20 p-1",
+            ]}
+          >
+            <Image
+              src={heroImage}
+              alt={title}
+              width={140}
+              height={79}
+              class:list={[
+                "h-full w-full",
+                useContainHeroImage ? "object-contain" : "object-cover",
+              ]}
+              format="webp"
+              quality={80}
+              loading="lazy"
+              densities={[1, 2]}
+            />
+          </div>
         </a>
       )}
       <p class="opacity-80 flex-1">{description}</p>
