@@ -6,6 +6,8 @@ export const GET: APIRoute = async () => {
 
 ${SITE.desc}
 
+[Principles I believe in.](/posts/2026/things-i-believe-in)
+
 ## Navigation
 
 - [About](/about.md)
