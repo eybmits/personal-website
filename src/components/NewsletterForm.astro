@@ -6,14 +6,14 @@ export interface Props {
 const { variant = "default" } = Astro.props;
 const newsletterEndpoint = import.meta.env.PUBLIC_NEWSLETTER_EMBED_URL || "";
 const newsletterTag = import.meta.env.PUBLIC_NEWSLETTER_TAG || "";
-const contactEmail = import.meta.env.PUBLIC_CONTACT_EMAIL || "hello@example.com";
+const contactEmail = import.meta.env.PUBLIC_CONTACT_EMAIL || "hello@eybmits.dev";
 const canSubscribe = newsletterEndpoint.trim().length > 0;
 ---
 
 <div class={variant === "default" ? "newsletter-box bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-lg p-6 my-8" : "newsletter-compact mt-6"}>
   {variant === "default" && (
     <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-      New posts, shipping stories, and practical notes straight to your inbox.
+      Research notes, reproducibility updates, and public project write-ups.
     </p>
   )}
 
@@ -52,7 +52,7 @@ const canSubscribe = newsletterEndpoint.trim().length > 0;
 
   {variant === "default" && (
     <p class="text-xs text-gray-500 dark:text-gray-400 mt-3">
-      Usually 1-2 emails per month. No spam.
+      No list is configured yet; email is the current contact path.
     </p>
   )}
 </div>
