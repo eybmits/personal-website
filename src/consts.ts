@@ -37,12 +37,12 @@ export const SITE: Site = {
   website: "https://eybmits.github.io/",
   author: "Markus Baumann",
   profile: "https://eybmits.github.io/about",
-  desc: "Personal website and blog about software, products, and ideas I'm building.",
+  desc: "Markus Baumann is a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, time-series forecasting, and reproducible research software.",
   title: "Markus Baumann",
   shortName: "eybmits",
   repository: "https://github.com/eybmits/personal-website",
   twitterHandle: "",
-  ogImage: "avatar.svg",
+  ogImage: "avatar.png",
   lightAndDarkMode: true,
   postPerIndex: 6,
   postPerPage: 10,
@@ -56,7 +56,7 @@ export const SITE: Site = {
   },
   dynamicOgImage: true,
   lang: "en",
-  timezone: "America/New_York",
+  timezone: "Europe/Berlin",
 };
 
 export const SITE_TITLE = SITE.title;
@@ -72,6 +72,11 @@ export const NAV_LINKS: SocialLink[] = [
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   { href: "https://github.com/eybmits", label: "GitHub" },
+  {
+    href: "https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html",
+    label: "LMU profile",
+  },
+  { href: "https://qarlab.de/en/", label: "QAR-Lab" },
   { href: "/rss.xml", label: "RSS" },
 ];
 

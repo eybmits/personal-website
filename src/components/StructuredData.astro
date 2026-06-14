@@ -15,6 +15,11 @@ const imageUrl = new URL(`/${SITE.ogImage}`, SITE.website).href;
 const socialProfiles = SOCIALS.filter(
   (social) => social.active && social.href.startsWith("http")
 ).map((social) => social.href);
+const canonicalProfiles = [
+  "https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html",
+  "https://qarlab.de/en/",
+  "https://arxiv.org/search/?query=Markus+Baumann&searchtype=author",
+];
 
 let structuredData: Record<string, any> = {};
 
@@ -56,8 +61,25 @@ if (type === "BlogPosting") {
     name: SITE.author,
     url: siteUrl,
     image: imageUrl,
-    sameAs: socialProfiles,
-    jobTitle: "Software Engineer",
+    sameAs: [...socialProfiles, ...canonicalProfiles],
+    jobTitle: "Researcher",
+    affiliation: {
+      "@type": "Organization",
+      name: "LMU Munich / QAR-Lab",
+      url: "https://qarlab.de/en/",
+    },
+    worksFor: {
+      "@type": "CollegeOrUniversity",
+      name: "Ludwig-Maximilians-Universitaet Muenchen",
+      url: "https://www.lmu.de/",
+    },
+    knowsAbout: [
+      "Quantum Reservoir Computing",
+      "Quantum Machine Learning",
+      "time-series forecasting",
+      "reproducible research software",
+      "quantum generative modeling",
+    ],
     description: SITE.desc,
   };
 } else if (type === "WebSite") {

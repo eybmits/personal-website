@@ -1,7 +1,7 @@
 {
   "name": "Markus Baumann",
   "short_name": "eybmits",
-  "description": "Personal website and blog about software, products, and ideas.",
+  "description": "Markus Baumann, LMU Munich / QAR-Lab researcher in Quantum Reservoir Computing, Quantum Machine Learning, time-series forecasting, and reproducible research software.",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -9,9 +9,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/avatar.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "/avatar.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": "/",

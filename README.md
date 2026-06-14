@@ -1,6 +1,13 @@
-# Personal Website (Astro)
+# Markus Baumann Personal Website (Astro)
 
-Personal site and blog based on a proven Astro architecture, adapted for your own profile and content.
+Astro source for [eybmits.github.io](https://eybmits.github.io), the canonical public website for Markus Baumann (@eybmits), a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, time-series forecasting, and reproducible research software.
+
+## Visibility goals
+
+- Keep the same identity phrase on the website, GitHub profile, LMU profile, QAR-Lab context, and research repositories.
+- Make GitHub, LMU, QAR-Lab, and arXiv links visible from the homepage and markdown fallbacks.
+- Expose structured `Person` data for search engines with research topics, affiliation, and canonical profiles.
+- Keep public pages readable without JavaScript through `.md` routes.
 
 ## Stack
 
@@ -8,56 +15,31 @@ Personal site and blog based on a proven Astro architecture, adapted for your ow
 - MD/MDX content collections
 - Search via Pagefind
 - RSS + Sitemap
-- Vercel deployment (`vercel.json` includes redirects/rewrites/headers)
-
-## Project Structure
-
-```text
-├── content/
-│   └── intake.md          # structured template for your real profile/posts
-├── public/
-│   ├── avatar.svg
-│   ├── about-photo.svg
-│   └── images/posts/
-├── src/
-│   ├── components/
-│   ├── content/
-│   │   └── blog/
-│   ├── layouts/
-│   ├── pages/
-│   ├── styles/
-│   └── utils/
-├── astro.config.mjs
-├── vercel.json
-└── package.json
-```
+- Vercel deployment metadata
+- GitHub Pages static deployment mirror
 
 ## Commands
 
-- `npm install` - install dependencies
-- `npm run dev` - start local dev server
-- `npm run build` - production build + Pagefind index
-- `npm run preview` - preview production build
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
+```
 
-## Personalization Checklist
+Deployment helper:
 
-1. Update `src/consts.ts` with your real name, domain, repo, social links.
-2. Fill `content/intake.md` with your real bio + posts.
-3. Replace placeholder assets in `public/` if desired.
-4. Set optional newsletter/env values in `.env` (see `.env.example`).
+```bash
+npm run deploy
+```
 
-## Deployment
+## Main public files
 
-1. Create repo `personal-website` on GitHub.
-2. Push `main`.
-3. Import repo into Vercel.
-4. Keep Vercel subdomain first, add custom domain later.
-
-## Agent Handover
-
-Operational handover for any new agent is documented in:
-
-- `docs/AGENT_RUNBOOK.md`
+- `src/consts.ts` - canonical site title, description, repository, and timezone.
+- `src/pages/index.astro` - homepage hero and public identity links.
+- `src/pages/about.mdx` - human-readable research bio.
+- `src/components/StructuredData.astro` - search-engine structured data.
+- `src/pages/index.md.ts` and `src/pages/about.md.ts` - markdown fallbacks for crawlers and text clients.
 
 ## License
 

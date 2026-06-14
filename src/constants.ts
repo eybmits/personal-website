@@ -34,7 +34,7 @@ export const SOCIALS = [
     href: "mailto:hello@eybmits.dev",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: "mail",
-    active: false,
+    active: true,
   },
 ] as const;
 
