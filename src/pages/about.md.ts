@@ -38,7 +38,7 @@ This page follows the public GitHub profile as the ground truth for current proj
 - LMU profile: https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html
 - QAR-Lab: https://qarlab.de/en/
 - Google Scholar: https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ
-- Email: hello@eybmits.dev
+- Email: markus.baumann@campus.lmu.de
 
 ---
 
