@@ -31,21 +31,30 @@ const {
 } = Astro.props;
 
 const socialImageURL = new URL(ogImage, Astro.url);
+const canonicalHref = canonicalURL instanceof URL ? canonicalURL.href : canonicalURL;
+const siteUrl = SITE.website.replace(/\/$/, "");
+const personId = `${siteUrl}/#person`;
+const websiteId = `${siteUrl}/#website`;
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: `${title}`,
-  image: `${socialImageURL}`,
-  datePublished: `${pubDatetime?.toISOString()}`,
-  ...(modDatetime && { dateModified: modDatetime.toISOString() }),
-  author: [
-    {
-      "@type": "Person",
-      name: `${author}`,
-      ...(profile && { url: profile }),
-    },
-  ],
+  "@type": "WebPage",
+  "@id": canonicalHref,
+  name: `${title}`,
+  description,
+  url: canonicalHref,
+  isPartOf: {
+    "@type": "WebSite",
+    "@id": websiteId,
+    name: SITE.title,
+    url: siteUrl,
+  },
+  about: {
+    "@type": "Person",
+    "@id": personId,
+    name: `${author}`,
+    ...(profile && { url: profile }),
+  },
 };
 ---
 
@@ -56,7 +65,7 @@ const structuredData = {
     <meta name="viewport" content="width=device-width" />
     <meta name="view-transition" content="same-origin" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="canonical" href={canonicalURL} />
+    <link rel="canonical" href={canonicalHref} />
     <meta name="generator" content={Astro.generator} />
 
     <!-- General Meta Tags -->
@@ -69,7 +78,7 @@ const structuredData = {
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:url" content={canonicalHref} />
     <meta property="og:image" content={socialImageURL} />
 
     <!-- Article Published/Modified time -->
@@ -92,7 +101,7 @@ const structuredData = {
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:url" content={canonicalHref} />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={socialImageURL} />

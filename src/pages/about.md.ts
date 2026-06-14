@@ -37,10 +37,11 @@ This page follows the public GitHub profile as the ground truth for current proj
 
 ## Contact
 
+- Personal website: https://eybmits.github.io/
 - GitHub: https://github.com/eybmits
-- LMU profile: https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html
-- QAR-Lab: https://qarlab.de/en/
 - Google Scholar: https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ
+- LMU profile: https://www.ifi.lmu.de/mvs/de/team/kontaktseite/markus-baumann-eb504667.html
+- QAR-Lab: https://qarlab.de/en/
 - Email: ${SITE.email}
 
 ---

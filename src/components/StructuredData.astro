@@ -1,6 +1,5 @@
 ---
 import { SITE } from "@/config";
-import { SOCIALS } from "@/constants";
 
 export interface Props {
   type: "BlogPosting" | "Person" | "WebSite";
@@ -12,13 +11,13 @@ const { type, data } = Astro.props;
 const siteUrl = SITE.website.replace(/\/$/, "");
 const profileUrl = `${siteUrl}/about`;
 const imageUrl = new URL(`/${SITE.ogImage}`, SITE.website).href;
-const socialProfiles = SOCIALS.filter(
-  (social) => social.active && social.href.startsWith("http")
-).map((social) => social.href);
-const canonicalProfiles = [
-  "https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html",
-  "https://qarlab.de/en/",
+const personId = `${siteUrl}/#person`;
+const websiteId = `${siteUrl}/#website`;
+const identityProfiles = [
+  "https://github.com/eybmits",
   "https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ",
+  "https://www.ifi.lmu.de/mvs/de/team/kontaktseite/markus-baumann-eb504667.html",
+  "https://qarlab.de/en/",
 ];
 
 let structuredData: Record<string, any> = {};
@@ -27,10 +26,12 @@ if (type === "BlogPosting") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "@id": `${data.url}#blogposting`,
     headline: data.title,
     description: data.description,
     author: {
       "@type": "Person",
+      "@id": personId,
       name: data.author || SITE.author,
       url: SITE.profile || profileUrl,
     },
@@ -38,6 +39,7 @@ if (type === "BlogPosting") {
     dateModified: data.modDatetime?.toISOString() || data.pubDatetime.toISOString(),
     publisher: {
       "@type": "Person",
+      "@id": personId,
       name: SITE.author,
       logo: {
         "@type": "ImageObject",
@@ -58,11 +60,12 @@ if (type === "BlogPosting") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": personId,
     name: SITE.author,
     url: siteUrl,
     image: imageUrl,
     email: SITE.email,
-    sameAs: [...socialProfiles, ...canonicalProfiles],
+    sameAs: identityProfiles,
     jobTitle: "Researcher",
     affiliation: {
       "@type": "Organization",
@@ -87,11 +90,13 @@ if (type === "BlogPosting") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": websiteId,
     name: SITE.title,
     url: siteUrl,
     description: SITE.desc,
     author: {
       "@type": "Person",
+      "@id": personId,
       name: SITE.author,
     },
     potentialAction: {

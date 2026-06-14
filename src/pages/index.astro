@@ -22,7 +22,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 ---
 
 <Layout
-  title="Markus Baumann - Quantum Reservoir Computing, QML, LMU Munich"
+  title="Markus Baumann | Quantum Reservoir Computing & Machine Learning"
   description={SITE.desc}
 >
   <StructuredData type="WebSite" data={{}} />
@@ -73,12 +73,21 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 justify-center text-sm sm:justify-start">
             <a
               href="https://github.com/eybmits"
+              rel="me"
               class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
             >
               GitHub
             </a>
             <a
-              href="https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html"
+              href="https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ"
+              rel="me"
+              class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
+            >
+              Google Scholar
+            </a>
+            <a
+              href="https://www.ifi.lmu.de/mvs/de/team/kontaktseite/markus-baumann-eb504667.html"
+              rel="me"
               class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
             >
               LMU profile
@@ -88,12 +97,6 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
               class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
             >
               QAR-Lab
-            </a>
-            <a
-              href="https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ"
-              class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
-            >
-              Google Scholar
             </a>
           </div>
           {

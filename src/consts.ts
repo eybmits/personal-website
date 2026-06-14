@@ -75,7 +75,11 @@ export const NAV_LINKS: SocialLink[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   { href: "https://github.com/eybmits", label: "GitHub" },
   {
-    href: "https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html",
+    href: "https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ",
+    label: "Google Scholar",
+  },
+  {
+    href: "https://www.ifi.lmu.de/mvs/de/team/kontaktseite/markus-baumann-eb504667.html",
     label: "LMU profile",
   },
   { href: "https://qarlab.de/en/", label: "QAR-Lab" },
