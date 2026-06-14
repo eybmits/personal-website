@@ -26,11 +26,14 @@ This page follows the public GitHub profile as the ground truth for current proj
 
 ## Public Documentation and Tools
 
-- VibeTracker / Vibe Shuffle: https://eybmits.github.io/vibe_shuffle_site/ and https://github.com/eybmits/vibe_shuffle
+- VibeTracker: https://eybmits.github.io/vibe_shuffle_site/ and https://github.com/eybmits/vibe_shuffle
 - Interactive QRC learning platform: https://eybmits.github.io/qrc-website/ and https://github.com/eybmits/qrc-website
 - Personal website and research identity hub: https://eybmits.github.io and https://github.com/eybmits/personal-website
+- Spaced repetition and LLM tutoring loops: https://memry-7ppl.onrender.com and https://github.com/eybmits/memry
 - Terminal-first longevity tracker: https://eybmits.github.io/posts/2026/longevity-logbook and https://github.com/eybmits/longevity-logbook
+- 100x100 Pomodoro tracker: https://eybmits.github.io/pomodoro-100x100/#/ and https://github.com/eybmits/pomodoro-100x100
 - Brainfog decision tree: https://eybmits.github.io/brainfog-decision-tree/ and https://github.com/eybmits/brainfog-decision-tree
+- macOS writing assistant: https://github.com/eybmits/grammarapp-macos
 
 ## Contact
 
@@ -38,7 +41,7 @@ This page follows the public GitHub profile as the ground truth for current proj
 - LMU profile: https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html
 - QAR-Lab: https://qarlab.de/en/
 - Google Scholar: https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ
-- Email: markus.baumann@campus.lmu.de
+- Email: ${SITE.email}
 
 ---
 

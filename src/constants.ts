@@ -31,7 +31,7 @@ export const SOCIALS = [
   },
   {
     name: "Mail",
-    href: "mailto:markus.baumann@campus.lmu.de",
+    href: `mailto:${SITE.email}`,
     linkTitle: `Send an email to ${SITE.title}`,
     icon: "mail",
     active: true,
