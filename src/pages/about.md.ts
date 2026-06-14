@@ -37,7 +37,7 @@ This page follows the public GitHub profile as the ground truth for current proj
 - GitHub: https://github.com/eybmits
 - LMU profile: https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html
 - QAR-Lab: https://qarlab.de/en/
-- arXiv: https://arxiv.org/search/?query=Markus+Baumann&searchtype=author
+- Google Scholar: https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ
 - Email: hello@eybmits.dev
 
 ---

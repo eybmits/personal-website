@@ -5,7 +5,7 @@ Astro source for [eybmits.github.io](https://eybmits.github.io), the canonical p
 ## Visibility goals
 
 - Keep the same identity phrase on the website, GitHub profile, LMU profile, QAR-Lab context, and research repositories.
-- Make GitHub, LMU, QAR-Lab, and arXiv links visible from the homepage and markdown fallbacks.
+- Make GitHub, LMU, QAR-Lab, and Google Scholar links visible from the homepage and markdown fallbacks.
 - Expose structured `Person` data for search engines with research topics, affiliation, and canonical profiles.
 - Keep public pages readable without JavaScript through `.md` routes.
 
