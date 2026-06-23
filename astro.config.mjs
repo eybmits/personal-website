@@ -51,7 +51,6 @@ export default defineConfig({
         } else if (
           url.endsWith("/posts") ||
           url.endsWith("/about") ||
-          url.endsWith("/markus-baumann-github") ||
           url.endsWith("/search") ||
           url.endsWith("/archives")
         ) {
