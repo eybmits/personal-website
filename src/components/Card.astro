@@ -13,7 +13,15 @@ export interface Props extends CollectionEntry<"blog"> {
 
 const { variant = "h2", data, id, filePath, body, showImage = true } = Astro.props;
 
-const { title, description, pubDatetime, modDatetime, timezone, heroImage, heroImageFit = "cover" } = data;
+const {
+  title,
+  description,
+  pubDatetime,
+  modDatetime,
+  timezone,
+  heroImage,
+  heroImageFit = "cover",
+} = data;
 const readingTime = calculateReadingTime(body ?? "");
 const useContainHeroImage = heroImageFit === "contain";
 

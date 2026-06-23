@@ -1,13 +1,14 @@
 // @ts-check
-import { defineConfig } from "astro/config";
+
 import mdx from "@astrojs/mdx";
-import sitemap, { ChangeFreqEnum } from "@astrojs/sitemap";
 import react from "@astrojs/react";
+import sitemap, { ChangeFreqEnum } from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
-import remarkToc from "remark-toc";
+import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
-import { remarkLazyLoadImages } from "./src/utils/remarkLazyLoadImages.mjs";
+import remarkToc from "remark-toc";
 import { SITE } from "./src/config";
+import { remarkLazyLoadImages } from "./src/utils/remarkLazyLoadImages.mjs";
 
 export default defineConfig({
   site: SITE.website,
@@ -15,7 +16,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [
       remarkToc,
-      // @ts-ignore - TypeScript has issues with remark plugin tuple syntax
+      // @ts-expect-error - TypeScript has issues with remark plugin tuple syntax
       [remarkCollapse, { test: "Table of contents" }],
       remarkLazyLoadImages,
     ],
@@ -41,13 +42,16 @@ export default defineConfig({
         item.changefreq = ChangeFreqEnum.MONTHLY;
         item.priority = 0.5;
 
-        if (url === SITE.website || url === SITE.website + "/") {
+        const homeUrl = SITE.website.replace(/\/$/, "");
+
+        if (url === homeUrl || url === `${homeUrl}/`) {
           item.priority = 1.0;
           item.changefreq = ChangeFreqEnum.WEEKLY;
           item.lastmod = new Date().toISOString();
         } else if (
           url.endsWith("/posts") ||
           url.endsWith("/about") ||
+          url.endsWith("/markus-baumann-github") ||
           url.endsWith("/search") ||
           url.endsWith("/archives")
         ) {
