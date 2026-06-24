@@ -4,7 +4,7 @@ import { SITE } from "@/config";
 export const GET: APIRoute = async () => {
   const markdownContent = `# About ${SITE.title}
 
-I'm ${SITE.author}, a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, time-series forecasting, and reproducible research software.
+I'm ${SITE.author}, a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, and time-series forecasting. I keep research outputs reproducible and inspectable through public code, experiment manifests, cached artifacts, figures, and paper material where possible.
 
 This page follows the public GitHub profile as the ground truth for current project orientation.
 
@@ -13,7 +13,7 @@ This page follows the public GitHub profile as the ground truth for current proj
 - Quantum Reservoir Computing with strict classical, feature-budget, and shot-budget controls
 - Quantum Machine Learning benchmarks where claims, baselines, and evidence stay auditable
 - Time-series forecasting from quantum measurement records and controlled reservoir features
-- Reproducible research software: scripts, manifests, cached artifacts, and publication figures
+- Research reproducibility: scripts, manifests, cached artifacts, and publication figures
 - Quantum generative modeling, parametrized Hamiltonians, and optimization workflows
 
 ## Open Research

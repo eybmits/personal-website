@@ -1,6 +1,6 @@
 # Markus Baumann Personal Website (Astro)
 
-Astro source for [eybmits.github.io](https://eybmits.github.io), the canonical public website for Markus Baumann (@eybmits), a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, time-series forecasting, and reproducible research software.
+Astro source for [eybmits.github.io](https://eybmits.github.io), the canonical public website for Markus Baumann (@eybmits), a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, and time-series forecasting, with public artifacts for reproducible and inspectable computational research.
 
 ## Visibility goals
 
