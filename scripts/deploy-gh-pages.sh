@@ -35,7 +35,7 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
-git commit -m "Deploy site from personal-website"
+git commit -m "Deploy site from research-website"
 git push origin "$BRANCH"
 popd >/dev/null
 

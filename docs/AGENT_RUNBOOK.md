@@ -1,4 +1,4 @@
-# Agent Runbook: `personal-website`
+# Agent Runbook: `research-website`
 
 Last updated: **February 17, 2026**
 
@@ -18,7 +18,7 @@ Build and maintain a personal website with the same functional pattern as the or
 Current owner profile in repo defaults:
 
 - Name: `Markus Baumann`
-- Primary repo: `https://github.com/eybmits/personal-website`
+- Primary repo: `https://github.com/eybmits/research-website`
 - Live URL: `https://eybmits.github.io/`
 
 ## 2. Repo Topology
@@ -26,7 +26,7 @@ Current owner profile in repo defaults:
 There are **two repositories** involved:
 
 1. Source repo (code):
-- `https://github.com/eybmits/personal-website`
+- `https://github.com/eybmits/research-website`
 
 2. Live static host repo (GitHub Pages artifact):
 - `https://github.com/eybmits/eybmits.github.io`
@@ -143,7 +143,7 @@ Always run:
 3. ensure no old owner/domain strings remain:
 
 ```bash
-rg -n "steipete|peter@|steipete.me|personal-website.vercel.app" src public README.md content
+rg -n "steipete|peter@|steipete.me|research-website.vercel.app" src public README.md content
 ```
 
 Expected: no matches (unless intentionally retained in historical docs).
@@ -152,7 +152,7 @@ Expected: no matches (unless intentionally retained in historical docs).
 
 - Vercel CLI login token was invalid in this environment during initial live setup.
 - Live serving currently uses GitHub Pages and is fully operational.
-- If Vercel is desired later, connect `personal-website` repo in Vercel and set production domain explicitly.
+- If Vercel is desired later, connect `research-website` repo in Vercel and set production domain explicitly.
 
 ## 9. Definition of Clean Repo (for this project)
 

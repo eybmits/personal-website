@@ -19,21 +19,21 @@ This page follows the public GitHub profile as the ground truth for current proj
 ## Open Research
 
 - QRC Operating Band: https://github.com/eybmits/qrc-operating-band
-- QC Symmetry: https://github.com/eybmits/qc-symmetry
+- VQML Symmetry Artifact: https://github.com/eybmits/vqml-symmetry-artifact
 - IQP Generative Modeling: https://github.com/eybmits/iqp-generative-modeling
-- Parametrized Hamiltonians: https://github.com/eybmits/parameterized-hamiltonians-id
+- Hamiltonian Implicit Differentiation: https://github.com/eybmits/hamiltonian-implicit-differentiation
 - Statistically Learnable QRC: https://github.com/eybmits/qrc-statistical-learning
 
 ## Public Documentation and Tools
 
-- VibeTracker: https://eybmits.github.io/vibe-shuffle-site/ and https://github.com/eybmits/vibe-shuffle
-- Interactive QRC learning platform: https://eybmits.github.io/qrc-website/ and https://github.com/eybmits/qrc-website
-- Personal website and research identity hub: https://eybmits.github.io and https://github.com/eybmits/personal-website
-- Spaced repetition and LLM tutoring loops: https://memry-7ppl.onrender.com and https://github.com/eybmits/memry
+- VibeTracker: https://eybmits.github.io/vibe-tracker-pages/ and https://github.com/eybmits/vibe-tracker
+- Interactive QRC learning platform: https://eybmits.github.io/qrc-learning-platform/ and https://github.com/eybmits/qrc-learning-platform
+- Research website and identity hub: https://eybmits.github.io and https://github.com/eybmits/research-website
+- Spaced-repetition tutor: https://memry-7ppl.onrender.com and https://github.com/eybmits/spaced-repetition-tutor
 - Terminal-first longevity tracker: https://eybmits.github.io/posts/2026/longevity-logbook and https://github.com/eybmits/longevity-logbook
 - 100x100 Pomodoro tracker: https://eybmits.github.io/pomodoro-100x100/#/ and https://github.com/eybmits/pomodoro-100x100
-- Brainfog decision tree: https://eybmits.github.io/brainfog-decision-tree/ and https://github.com/eybmits/brainfog-decision-tree
-- macOS writing assistant: https://github.com/eybmits/grammarapp-macos
+- Cognitive decision tree: https://eybmits.github.io/cognitive-decision-tree/ and https://github.com/eybmits/cognitive-decision-tree
+- macOS writing assistant: https://github.com/eybmits/writing-assistant-macos
 
 ## Contact
 

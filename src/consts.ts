@@ -42,7 +42,7 @@ export const SITE: Site = {
   desc: "Markus Baumann is a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, and time-series forecasting, with public artifacts for reproducible and inspectable computational research.",
   title: "Markus Baumann",
   shortName: "eybmits",
-  repository: "https://github.com/eybmits/personal-website",
+  repository: "https://github.com/eybmits/research-website",
   twitterHandle: "",
   ogImage: "avatar.png",
   lightAndDarkMode: true,
@@ -54,7 +54,7 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/eybmits/personal-website/edit/main/",
+    url: "https://github.com/eybmits/research-website/edit/main/",
   },
   dynamicOgImage: true,
   lang: "en",
