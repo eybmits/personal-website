@@ -19,14 +19,14 @@ This page follows the public GitHub profile as the ground truth for current proj
 ## Open Research
 
 - QRC Operating Band: https://github.com/eybmits/qrc-operating-band
-- QC Symmetry: https://github.com/eybmits/qc_symmetry
-- IQP Generative Modeling: https://github.com/eybmits/iqp_generative
+- QC Symmetry: https://github.com/eybmits/qc-symmetry
+- IQP Generative Modeling: https://github.com/eybmits/iqp-generative-modeling
 - Parametrized Hamiltonians: https://github.com/eybmits/parameterized-hamiltonians-id
-- Statistically Learnable QRC: https://github.com/eybmits/QRC-statistically
+- Statistically Learnable QRC: https://github.com/eybmits/qrc-statistical-learning
 
 ## Public Documentation and Tools
 
-- VibeTracker: https://eybmits.github.io/vibe_shuffle_site/ and https://github.com/eybmits/vibe_shuffle
+- VibeTracker: https://eybmits.github.io/vibe-shuffle-site/ and https://github.com/eybmits/vibe-shuffle
 - Interactive QRC learning platform: https://eybmits.github.io/qrc-website/ and https://github.com/eybmits/qrc-website
 - Personal website and research identity hub: https://eybmits.github.io and https://github.com/eybmits/personal-website
 - Spaced repetition and LLM tutoring loops: https://memry-7ppl.onrender.com and https://github.com/eybmits/memry
