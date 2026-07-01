@@ -2,7 +2,7 @@
 title: "Five Years of Brain Fog on Reddit: What 2,073 Threads and 151,767 Comments Reveal"
 description: A five-year Reddit analysis of brain fog across 2,073 threads and 151,767 comments, showing which interventions dominate attention, which patterns look strongest, which ideas look divisive, and which quieter signals seem underrated.
 pubDatetime: 2026-03-07T22:55:00.000Z
-featured: true
+featured: false
 draft: false
 tags:
   - brain-fog
