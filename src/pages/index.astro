@@ -18,12 +18,13 @@ import { SITE } from "@/config";
 import Layout from "@/layouts/Layout.astro";
 import { getPath } from "@/utils/getPath";
 import getSortedPosts from "@/utils/getSortedPosts";
+import postFilter from "@/utils/postFilter";
 
-const posts = await getCollection("blog");
+const posts = await getCollection("blog", postFilter);
 const sortedPosts = getSortedPosts(posts);
 const beliefsPost = sortedPosts.find(({ data }) => data.title === "Principles");
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured === true);
+const normalPosts = sortedPosts.filter(({ data }) => data.featured !== true);
 
 const heroIconLinks = [
   {
@@ -150,16 +151,16 @@ const heroIconLinks = [
               ))}
             </ul>
           </section>
-          {recentPosts.length > 0 && <Hr />}
+          {normalPosts.length > 0 && <Hr />}
         </>
       )
     }
 
     {
-      recentPosts.length > 0 && (
+      normalPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
           <ul>
-            {recentPosts.map(
+            {normalPosts.map(
               (data, index) =>
                 index < SITE.postPerIndex && <Card variant="h3" {...data} showImage={false} />,
             )}
