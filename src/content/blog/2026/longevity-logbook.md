@@ -2,7 +2,7 @@
 title: Longevity Logbook
 description: A minimal terminal-first training tracker for bodyweight, Zone 2, Zone 5 / HIIT, and strength work.
 pubDatetime: 2026-03-06T00:40:00.000Z
-featured: true
+featured: false
 tags:
   - product
   - terminal

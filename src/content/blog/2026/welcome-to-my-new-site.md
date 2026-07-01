@@ -2,7 +2,7 @@
 title: Welcome to My New Site
 description: Why I rebuilt this site, what I'll publish here, and what to expect next.
 pubDatetime: 2026-02-10T09:00:00.000Z
-featured: true
+featured: false
 tags:
   - personal
   - writing

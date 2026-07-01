@@ -2,7 +2,7 @@
 title: How I Build Products
 description: My lightweight approach to moving from idea to production without losing quality.
 pubDatetime: 2026-02-13T14:30:00.000Z
-featured: true
+featured: false
 tags:
   - product
   - engineering
