@@ -3,9 +3,11 @@ import { getCollection } from "astro:content";
 import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
+import IconLab from "@/assets/icons/IconLab.svg";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconScholar from "@/assets/icons/IconScholar.svg";
+import IconUniversity from "@/assets/icons/IconUniversity.svg";
 import Card from "@/components/Card.astro";
 import Footer from "@/components/Footer.astro";
 import Header from "@/components/Header.astro";
@@ -43,6 +45,19 @@ const heroIconLinks = [
     title: "Google Scholar",
     Icon: IconScholar,
     rel: "me",
+  },
+  {
+    href: "https://www.ifi.lmu.de/mvs/de/team/kontaktseite/markus-baumann-eb504667.html",
+    label: "LMU profile",
+    title: "LMU profile",
+    Icon: IconUniversity,
+    rel: "me",
+  },
+  {
+    href: "https://qarlab.de/en/",
+    label: "QAR-Lab",
+    title: "QAR-Lab",
+    Icon: IconLab,
   },
   {
     href: `mailto:${SITE.email}`,
@@ -102,41 +117,6 @@ const heroIconLinks = [
               )
             }
           </p>
-          <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 justify-center text-sm sm:justify-start">
-            <a
-              href="/about#open-research"
-              class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
-            >
-              Artifacts
-            </a>
-            <a
-              href="https://github.com/eybmits"
-              rel="me"
-              class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
-            >
-              Markus Baumann on GitHub
-            </a>
-            <a
-              href="https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ"
-              rel="me"
-              class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
-            >
-              Google Scholar
-            </a>
-            <a
-              href="https://www.ifi.lmu.de/mvs/de/team/kontaktseite/markus-baumann-eb504667.html"
-              rel="me"
-              class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
-            >
-              LMU profile
-            </a>
-            <a
-              href="https://qarlab.de/en/"
-              class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
-            >
-              QAR-Lab
-            </a>
-          </div>
           <div class="mt-5 flex items-center justify-center gap-3 sm:justify-start">
             {
               heroIconLinks.map(({ href, label, title, Icon, rel }) => (
