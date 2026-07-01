@@ -2,6 +2,7 @@
 title: Every Solution Starts With a Guess
 description: Problem solving works by noticing a problem, making a risky guess, testing it, correcting errors, and repeating.
 pubDatetime: 2026-03-06T12:00:00.000Z
+featured: true
 tags:
   - personal
   - research
