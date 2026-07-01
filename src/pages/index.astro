@@ -1,15 +1,18 @@
 ---
 import { getCollection } from "astro:content";
+import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import IconGitHub from "@/assets/icons/IconGitHub.svg";
+import IconMail from "@/assets/icons/IconMail.svg";
 import IconRss from "@/assets/icons/IconRss.svg";
+import IconScholar from "@/assets/icons/IconScholar.svg";
 import Card from "@/components/Card.astro";
 import Footer from "@/components/Footer.astro";
 import Header from "@/components/Header.astro";
 import Hr from "@/components/Hr.astro";
 import LinkButton from "@/components/LinkButton.astro";
-import Socials from "@/components/Socials.astro";
 import StructuredData from "@/components/StructuredData.astro";
-import { SITE, SOCIALS } from "@/config";
+import { SITE } from "@/config";
 import Layout from "@/layouts/Layout.astro";
 import { getPath } from "@/utils/getPath";
 import getSortedPosts from "@/utils/getSortedPosts";
@@ -19,6 +22,35 @@ const sortedPosts = getSortedPosts(posts);
 const beliefsPost = sortedPosts.find(({ data }) => data.title === "Principles");
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+
+const heroIconLinks = [
+  {
+    href: "/about#open-research",
+    label: "Research artifacts",
+    title: "Research artifacts",
+    Icon: IconArchive,
+  },
+  {
+    href: "https://github.com/eybmits",
+    label: "GitHub",
+    title: "Markus Baumann on GitHub",
+    Icon: IconGitHub,
+    rel: "me",
+  },
+  {
+    href: "https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ",
+    label: "Google Scholar",
+    title: "Google Scholar",
+    Icon: IconScholar,
+    rel: "me",
+  },
+  {
+    href: `mailto:${SITE.email}`,
+    label: "Email",
+    title: "Email Markus Baumann",
+    Icon: IconMail,
+  },
+];
 ---
 
 <Layout
@@ -72,6 +104,12 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           </p>
           <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 justify-center text-sm sm:justify-start">
             <a
+              href="/about#open-research"
+              class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
+            >
+              Artifacts
+            </a>
+            <a
               href="https://github.com/eybmits"
               rel="me"
               class="text-accent decoration-dashed underline underline-offset-4 hover:no-underline"
@@ -99,13 +137,22 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
               QAR-Lab
             </a>
           </div>
-          {
-            SOCIALS.filter((social) => social.active).length > 0 && (
-              <div class="mt-4 flex flex-row items-center justify-center sm:justify-start">
-                <Socials />
-              </div>
-            )
-          }
+          <div class="mt-5 flex items-center justify-center gap-3 sm:justify-start">
+            {
+              heroIconLinks.map(({ href, label, title, Icon, rel }) => (
+                <a
+                  href={href}
+                  rel={rel}
+                  aria-label={label}
+                  title={title}
+                  class="inline-flex size-10 items-center justify-center text-foreground/85 transition hover:-translate-y-0.5 hover:text-accent"
+                >
+                  <Icon class="size-7 fill-transparent stroke-current stroke-2" />
+                  <span class="sr-only">{label}</span>
+                </a>
+              ))
+            }
+          </div>
         </div>
       </div>
     </section>
